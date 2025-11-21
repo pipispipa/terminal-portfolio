@@ -15,17 +15,24 @@ const Welcome: React.FC = () => {
       <div className="info-section">
         <PreName>
           {`        
- /$$$$$$$  /$$                     /$$                              
-| $$__  $$|__/                    |__/                              
-| $$  \ $$ /$$  /$$$$$$  /$$$$$$$  /$$  /$$$$$$$  /$$$$$$   /$$$$$$$
-| $$  | $$| $$ /$$__  $$| $$__  $$| $$ /$$_____/ /$$__  $$ /$$_____/
-| $$  | $$| $$| $$  \ $$| $$  \ $$| $$|  $$$$$$ | $$  \ $$|  $$$$$$ 
-| $$  | $$| $$| $$  | $$| $$  | $$| $$ \____  $$| $$  | $$ \____  $$
-| $$$$$$$/| $$|  $$$$$$/| $$  | $$| $$ /$$$$$$$/|  $$$$$$/ /$$$$$$$/
-|_______/ |__/ \______/ |__/  |__/|__/|_______/  \______/ |_______/ 
-                                                                    
-                                                                    
-                                                                    
+                                                                                                                        
+DDDDDDDDDDDDD          iiii                                       iiii                                                     
+D::::::::::::DDD      i::::i                                     i::::i                                                    
+D:::::::::::::::DD     iiii                                       iiii                                                     
+DDD:::::DDDDD:::::D                                                                                                        
+  D:::::D    D:::::D iiiiiii    ooooooooooo   nnnn  nnnnnnnn    iiiiiii     ssssssssss      ooooooooooo       ssssssssss   
+  D:::::D     D:::::Di:::::i  oo:::::::::::oo n:::nn::::::::nn  i:::::i   ss::::::::::s   oo:::::::::::oo   ss::::::::::s  
+  D:::::D     D:::::D i::::i o:::::::::::::::on::::::::::::::nn  i::::i ss:::::::::::::s o:::::::::::::::oss:::::::::::::s 
+  D:::::D     D:::::D i::::i o:::::ooooo:::::onn:::::::::::::::n i::::i s::::::ssss:::::so:::::ooooo:::::os::::::ssss:::::s
+  D:::::D     D:::::D i::::i o::::o     o::::o  n:::::nnnn:::::n i::::i  s:::::s  ssssss o::::o     o::::o s:::::s  ssssss 
+  D:::::D     D:::::D i::::i o::::o     o::::o  n::::n    n::::n i::::i    s::::::s      o::::o     o::::o   s::::::s      
+  D:::::D     D:::::D i::::i o::::o     o::::o  n::::n    n::::n i::::i       s::::::s   o::::o     o::::o      s::::::s   
+  D:::::D    D:::::D  i::::i o::::o     o::::o  n::::n    n::::n i::::i ssssss   s:::::s o::::o     o::::ossssss   s:::::s 
+DDD:::::DDDDD:::::D  i::::::io:::::ooooo:::::o  n::::n    n::::ni::::::is:::::ssss::::::so:::::ooooo:::::os:::::ssss::::::s
+D:::::::::::::::DD   i::::::io:::::::::::::::o  n::::n    n::::ni::::::is::::::::::::::s o:::::::::::::::os::::::::::::::s 
+D::::::::::::DDD     i::::::i oo:::::::::::oo   n::::n    n::::ni::::::i s:::::::::::ss   oo:::::::::::oo  s:::::::::::ss  
+DDDDDDDDDDDDD        iiiiiiii   ooooooooooo     nnnnnn    nnnnnniiiiiiii  sssssssssss       ooooooooooo     sssssssssss    
+                                                          
           `}
         </PreName>
         <PreWrapper>
