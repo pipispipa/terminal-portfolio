@@ -30,7 +30,7 @@ const Projects: React.FC = () => {
 
   /* ===== check arg is valid ===== */
   const checkArg = () =>
-    isArgInvalid(arg, "go", ["1", "2", "3", "4"]) ? (
+    isArgInvalid(arg, "go", ["1", "2"]) ? (
       <Usage cmd="projects" />
     ) : null;
 
@@ -56,27 +56,15 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "SM Cart Pro",
+    desc: "Smart Grocery Lists - Organize your shopping effortlessly across multiple stores with smart grouping, collaborative lists, reminders, and a fast mobile-first experience.",
+    url: "https://smcart.pro",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
-  },
-  {
-    id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "Order Thank You Effects | PrestaShop Module",
+    desc: "A PrestaShop module that displays beautiful celebration effects when customers complete their orders. It enhances the user experience by adding visual feedback that makes the purchase completion feel more rewarding and engaging.",
+    url: "https://www.templatemonster.com/prestashop-extensions/order-thank-you-effects-for-prestashop-547043.html",
   },
 ];
 

@@ -54,8 +54,8 @@ ______ _             _
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
-            GitHub repo
+          <Link href="https://lyreluxe.com">
+            portfolio website
           </Link>
           .
         </div>
